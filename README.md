@@ -1,15 +1,3 @@
-Photo Logger (iOS)
-
-Photo Logger is an iOS application that allows users to capture photos and automatically associate them with geographic location data. The app demonstrates integration with device hardware and system services such as the camera and GPS while storing photo and location information locally.
-
-This repository highlights my contributions to a team-developed project originally created as part of a collaborative assignment.
-
-Project Overview
-
-The goal of the application is to allow users to capture photos and automatically record the geographic coordinates of where the photo was taken. Each entry stores the photo along with its associated latitude and longitude, allowing users to document and track locations visually.
-
-The project demonstrates how mobile applications interact with device hardware, location services, and persistent local storage.
-
 # Photo Logger
 
 Photo Logger is an iOS application that allows users to capture photos and automatically associate them with geographic location data. The app demonstrates integration with device hardware and system services such as the camera and GPS while storing photo and location information locally.
