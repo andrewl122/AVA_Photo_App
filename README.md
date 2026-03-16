@@ -10,74 +10,69 @@ The goal of the application is to allow users to capture photos and automaticall
 
 The project demonstrates how mobile applications interact with device hardware, location services, and persistent local storage.
 
-My Contributions
+# Photo Logger
 
-My primary responsibilities in this project included:
+Photo Logger is an iOS application that allows users to capture photos and automatically associate them with geographic location data. The app demonstrates integration with device hardware and system services such as the camera and GPS while storing photo and location information locally.
 
-Implementing Core Location integration to capture latitude and longitude coordinates
+## Project Type
 
-Integrating photo capture functionality using the image picker
+**Team Project** — developed collaboratively with a group of developers.
 
-Adding Core Data storage to save photo entries and location information
+### My Contributions
 
-Assisting with UI layout and feature implementation
+- Implemented **location tracking using Core Location** to capture longitude and latitude coordinates
+- Integrated **photo capture functionality using the image picker**
+- Added **Core Data support for storing photo entries**
+- Assisted with **UI layout and feature implementation**
+- Refactored project files and helped resolve development issues during testing
 
-Refactoring project files and resolving development issues during testing
+## Features
 
-Features
+- Capture photos directly from the device camera
+- Automatically record geographic coordinates for each photo
+- Store photo entries locally using Core Data
+- View saved photo entries with associated location information
+- Simple and intuitive mobile interface
 
-Capture photos using the device camera
+## Tech Stack
 
-Automatically record GPS coordinates for each photo
+- Swift
+- UIKit
+- Core Data
+- Core Location
+- Xcode
 
-Store photo entries locally using Core Data
+## Purpose
 
-View saved entries with associated location data
+The purpose of this project was to explore how iOS applications interact with device hardware and location services. The project focuses on integrating camera functionality, retrieving geographic coordinates, and persisting data locally.
 
-Simple and intuitive mobile interface
+## Screenshots
 
-Tech Stack
+*(Screenshots of the application will be added here.)*
 
-Swift
-UIKit
-Core Location
-Core Data
-Xcode
+Example:
 
-Screenshots
+![Photo Capture](screenshots/capture.png)  
+![Saved Entry](screenshots/entry.png)
 
-Screenshots of the application will be added here.
+## How to Run
 
-Example sections:
-
-Home Screen
-Photo Capture
-Saved Entry View
-
-How to Run
-
-Clone the repository
-
+1. Clone the repository
 git clone https://github.com/andrewl122/AVA_Photo_App.git
 
-Open the project in Xcode
+2. Open the project in **Xcode**
 
-Run the application on an iOS Simulator or a physical device.
+3. Run the application on an **iOS Simulator** or a physical device
 
-Future Improvements
+## Future Improvements
 
-Potential improvements for the project include:
+- Display captured locations on an interactive map
+- Add photo gallery view for saved entries
+- Improve UI styling and layout
+- Add ability to export photo entries
 
-Displaying saved photo locations on an interactive map
+## Author
 
-Adding a photo gallery view
-
-Improving UI design and animations
-
-Adding the ability to export saved entries
-
-Author
-
-Andrew Lawrence
-Computer Information Systems Graduate
+Andrew Lawrence  
+Computer Information Systems Graduate  
 Focused on mobile application and software development
